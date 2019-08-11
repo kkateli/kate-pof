@@ -6,12 +6,14 @@ import "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
 import "scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
 import pic1 from "../../assets/images/1.png";
 import pic2 from "../../assets/images/2.png";
-
+import pic3 from "../../assets/images/3.png";
+import pic4 from "../../assets/images/4.png";
+import pic5 from "../../assets/images/5.png";
 import "./Motion.css";
 
 class Motion extends Component {
   state = {
-    images: [pic1, pic2],
+    images: [pic1, pic2, pic3, pic4, pic5],
     controller: new ScrollMagic.Controller(),
     currentImg: pic1
   };
