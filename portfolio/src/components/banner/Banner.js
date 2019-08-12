@@ -2,9 +2,11 @@ import React from "react";
 import Bricks from "../bricks/Bricks";
 import Title from "../title/Title";
 import {Container, Row, Col} from "react-bootstrap";
+import StandGirl from "../standGirl/StandGirl";
 const banner = () => {
   return (
     <div>
+        <StandGirl />
       <Container>
         <Row>
           <Col>
