@@ -9,7 +9,8 @@
     "react-bootstrap": "^1.0.0-beta.11",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "scrollmagic": "^2.0.7"
+    "scrollmagic": "^2.0.7",
+    "velocity-animate": "^1.5.2"
   },
   "scripts": {
     "start": "react-scripts start",

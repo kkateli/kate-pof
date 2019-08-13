@@ -1,11 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 import stand from "../../assets/images/stand.png";
 import "./StandGirl.css";
-const standGirl =()=>{
+
+class standGirl extends Component {
+  render() {
     return (
+      <div>
         <div className="standGirlWrapper">
-            <img src={stand} alt="stand girl" />
+          <img id="standGirl" src={stand} alt="stand girl" />
         </div>
-    )
+      </div>
+    );
+  }
 }
 export default standGirl;

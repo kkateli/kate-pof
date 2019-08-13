@@ -49,9 +49,11 @@ class Motion extends Component {
     return (
       <div>
         <div className="spacers2" />
-        <div style={{ height: "300px", background: "orange" }}>
+        {/* here */}
+        {/* <div style={{ height: "300px", background: "orange" }}>
           Space before Scroll!
-        </div>
+        </div> */}
+       
         <div className="spacers0" id="trigger" />
         <div id="imagesequence">
           <img
