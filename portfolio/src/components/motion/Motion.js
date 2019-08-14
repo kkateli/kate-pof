@@ -35,9 +35,10 @@ class Motion extends Component {
     new ScrollMagic.Scene({
       triggerElement: "#trigger",
       duration: 2000,
-      offset:1000
+      offset:970
     })
       .setPin("#myimg")
+      .setClassToggle("#imagesequence", "visible") // add class to reveal
       .setTween(tween)
       .addIndicators({
         name: "scene",

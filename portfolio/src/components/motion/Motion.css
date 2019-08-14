@@ -3,3 +3,12 @@
     padding-bottom: 2000px;
    
 }
+
+#imagesequence {
+    opacity: 0;
+    
+}
+#imagesequence.visible {
+    opacity: 1;
+   
+}
