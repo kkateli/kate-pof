@@ -34,7 +34,8 @@ class Motion extends Component {
 
     new ScrollMagic.Scene({
       triggerElement: "#trigger",
-      duration: 2000
+      duration: 2000,
+      offset:1000
     })
       .setPin("#myimg")
       .setTween(tween)
@@ -60,6 +61,7 @@ class Motion extends Component {
             src={this.state.currentImg}
             alt="running1"
             id="myimg"
+            style={{opacity: 1}}
             ref={e => {
               this.obj = e;
             }}
