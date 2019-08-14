@@ -3,6 +3,7 @@ import Bricks from "../bricks/Bricks";
 import Title from "../title/Title";
 import {Container, Row, Col} from "react-bootstrap";
 import StandGirl from "../standGirl/StandGirl";
+import ScrollLabel from "../scrollLabel/ScrollLabel";
 const banner = () => {
   return (
     <div>
@@ -17,6 +18,9 @@ const banner = () => {
           </Col>
         </Row>
       </Container>
+      
+      <ScrollLabel />
+      
       
     </div>
   );
