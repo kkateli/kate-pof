@@ -5,10 +5,12 @@
 
 .scrollWord {
   width: 25%;
+  margin-left:20px; 
   
   
 }
 
 .scrollWraper {
-  margin-left: 500px;
+  width:50%;
+  margin-left:40%;
 }
