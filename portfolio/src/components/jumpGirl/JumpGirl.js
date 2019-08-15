@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import jump from "../../assets/images/fall.png";
-import cloudBig1 from "../../assets/images/cloudBig.png";
-import cloudBig2 from "../../assets/images/cloudBig.png";
+import cloud1 from "../../assets/images/cloud1.png";
+import cloud2 from "../../assets/images/cloud2.png";
+import cloud3 from "../../assets/images/cloud3.png";
 import { TweenMax, TimelineMax } from "gsap/TweenMax";
 // import TimelineMax from "gsap";
 import ScrollMagic from "ScrollMagic";
@@ -31,7 +32,7 @@ class JumpGirl extends Component {
         triggerElement: "#trigger2",
         triggerHook: 0.5, // show, when scrolled 10% into view
         duration: "500",
-        offset:-1300 // hide 10% before exiting view (80% + 10% from bottom)
+        offset:-1345 // hide 10% before exiting view (80% + 10% from bottom)
       })
         
         .setClassToggle("#reveal2", "visible2") // add class to reveal
@@ -53,8 +54,9 @@ class JumpGirl extends Component {
           <div class="spacer s2" />
           <div id="trigger2" class="spacer s0" />
           <div id="reveal2" class="spacer s0">
-            <img className="cloudBig1" src={cloudBig1} alt="Cloud Big1" />
-            <img className="cloudBig2" src={cloudBig2} alt="Cloud Big2" />
+            <img className="cloudBig1" src={cloud1} alt="Cloud Big1" />
+            <img className="cloudBig2" src={cloud2} alt="Cloud Big2" />
+            <img className="cloudBig3" src={cloud3} alt="Cloud Big3" />
           </div>
 
          

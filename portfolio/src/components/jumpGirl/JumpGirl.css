@@ -11,17 +11,27 @@
 
 .cloudBig1 {
     position: relative;
-    top:-1008px;
+    top:-1300px;
+    margin-left:400px;
   
-  width:52%;
+  
  
 }
 .cloudBig2{
     position: relative;
-    top:-999px;
-    width:48%;
+    top:-1150px;
+    margin-left:80%;
    
     
+}
+
+.cloudBig3{
+  position: relative;
+  top:-1050px;
+  left:-70%;
+  
+ 
+  
 }
 
 #reveal2 {
