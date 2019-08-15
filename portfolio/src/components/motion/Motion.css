@@ -12,3 +12,7 @@
     opacity: 1;
    
 }
+
+#myimg{
+    z-index: 10;
+}
