@@ -15,4 +15,6 @@
 
 #myimg{
     z-index: 10;
+    position: relative;
+    top:500px;
 }

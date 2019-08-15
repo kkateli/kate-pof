@@ -35,7 +35,8 @@ class Motion extends Component {
     new ScrollMagic.Scene({
       triggerElement: "#trigger",
       duration: 5000,
-      offset:1020
+      offset:1020,
+      triggerHook:0
     })
       .setPin("#myimg")
       .setClassToggle("#imagesequence", "visible") // add class to reveal
@@ -49,7 +50,7 @@ class Motion extends Component {
   }
   render() {
     return (
-      <div>
+      <div> 
         <div className="spacers2" />
         {/* here */}
         {/* <div style={{ height: "300px", background: "orange" }}>
