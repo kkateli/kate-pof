@@ -50,7 +50,7 @@ class Motion extends Component {
   }
   render() {
     return (
-      <div> 
+      <div style={{ background: "#7ec0ee" }}> 
         
         <div className="spacers2" />
         {/* here */}

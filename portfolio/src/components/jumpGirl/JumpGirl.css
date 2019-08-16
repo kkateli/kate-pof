@@ -27,10 +27,24 @@
 
 .cloudBig3{
   position: relative;
-  top:-1050px;
+  top:-550px;
   left:-70%;
   
  
+  
+}
+
+.cloudBig4{
+  position: relative;
+  top:-800px;
+  
+  
+}
+
+.cloudBig5{
+  position: relative;
+  top:-400px;
+  left:80%;
   
 }
 

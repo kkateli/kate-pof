@@ -31,7 +31,7 @@ class JumpGirl extends Component {
       new ScrollMagic.Scene({
         triggerElement: "#trigger2",
         triggerHook: 0.5, // show, when scrolled 10% into view
-        duration: "500",
+        duration: "1000",
         offset:-1345 // hide 10% before exiting view (80% + 10% from bottom)
       })
         
@@ -57,6 +57,8 @@ class JumpGirl extends Component {
             <img className="cloudBig1" src={cloud1} alt="Cloud Big1" />
             <img className="cloudBig2" src={cloud2} alt="Cloud Big2" />
             <img className="cloudBig3" src={cloud3} alt="Cloud Big3" />
+            <img className="cloudBig4" src={cloud1} alt="Cloud Big4" />
+            <img className="cloudBig5" src={cloud2} alt="Cloud Big5" />
           </div>
 
          
