@@ -11,7 +11,7 @@ class Fe extends Component{
                 <img className = "bird" src={bird} alt="bird" />
                 <img className = "bird" src={bird} alt="bird" />
                 <img className = "bird" src={bird} alt="bird" />
-                <img className = "bird" src={bird} alt="bird" />
+                <img className = "bird" style={{width:"80px"}} src={bird} alt="bird" />
                 
                 </div>
                 

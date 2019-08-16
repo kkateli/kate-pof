@@ -77,3 +77,47 @@
   -o-transform: none;
   transform: none;
 }
+/* .skillline{
+  position: relative;
+  top:-1040px;
+  color:white;
+  left:100px;
+  border-left: 1px solid white;
+  height:500px; 
+} */
+
+.skillLabel{
+  padding:5px;
+  background-color: white;
+  
+  color:#7ec0ee;
+  position: relative;
+  top:-1340px;
+  margin:0;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  display: inline;
+}
+
+.beginner{
+  left:17%;
+  
+}
+
+.elementary{
+  left:23%;
+  
+}
+
+.intermediate{
+  left:28%;
+}
+
+.advanced{
+  left: 32%;
+}
+
+.expert{
+  left: 38%;
+}

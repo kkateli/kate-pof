@@ -61,6 +61,13 @@ class JumpGirl extends Component {
             <img className="cloudBig3" src={cloud3} alt="Cloud Big3" />
             <img className="cloudBig4" src={cloud1} alt="Cloud Big4" />
             <img className="cloudBig5" src={cloud2} alt="Cloud Big5" />
+            
+            <div className="skillLabel beginner">Beginner</div>
+            <div className="skillLabel elementary">Elementary</div>
+            <div className="skillLabel intermediate">Intermediate</div>
+            <div className="skillLabel advanced">Advanced</div>
+            <div className="skillLabel expert">Expert</div>
+            
           </div>
           <Skills />
 
