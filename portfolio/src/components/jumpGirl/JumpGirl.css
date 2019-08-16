@@ -9,6 +9,13 @@
   
 }
 
+.skills{
+  position: relative;
+  top:-1350px;
+  width: 400px;
+  
+}
+
 .cloudBig1 {
     position: relative;
     top:-1300px;
