@@ -44,7 +44,7 @@ class Motion extends Component {
       .addIndicators({
         name: "scene",
         colorTrigger: "black",
-        colorStart: "#75c695"
+        colorStart: "black"
       }) // add indicators (requires plugin)
       .addTo(this.state.controller);
   }

@@ -26,7 +26,7 @@ class JumpGirl extends Component {
       .setClassToggle("#reveal1", "visible") // add class to reveal
       // .setClassToggle("#reveal2", "visible2") // add class to reveal
       .setPin("#reveal1")
-      .addIndicators({name:"jumpGirl"}) // add indicators (requires plugin)
+      // .addIndicators({name:"jumpGirl"}) // add indicators (requires plugin)
       .addTo(this.state.controller);
 
       new ScrollMagic.Scene({
@@ -37,7 +37,7 @@ class JumpGirl extends Component {
       })
         
         .setClassToggle("#reveal2", "visible2") // add class to reveal
-        .addIndicators({name:"cloud"}) // add indicators (requires plugin)
+        // .addIndicators({name:"cloud"}) // add indicators (requires plugin)
         .addTo(this.state.controller);
 
     

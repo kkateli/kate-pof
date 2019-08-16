@@ -17,7 +17,7 @@ class standGirl extends Component {
     new ScrollMagic.Scene({ triggerElement: "#trigger", offset:470 })
       // trigger a velocity opaticy animation
       .setVelocity("#animate", { opacity: 0 }, { duration: 400 })
-      .addIndicators({name:"standGirl"}) // add indicators (requires plugin)
+      // .addIndicators({name:"standGirl"}) // add indicators (requires plugin)
       .addTo(this.state.controller);
   }
   render() {

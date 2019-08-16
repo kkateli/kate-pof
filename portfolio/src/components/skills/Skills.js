@@ -28,7 +28,7 @@ class Skills extends Component {
         
       })
         .setClassToggle(revealElements[i], "visible") // add class toggle
-        .addIndicators({ name: "digit " + (i + 1) }) // add indicators (requires plugin)
+        // .addIndicators({ name: "digit " + (i + 1) }) // add indicators (requires plugin)
         .addTo(this.state.controller);
     }
   }

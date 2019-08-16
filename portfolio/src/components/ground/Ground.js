@@ -20,7 +20,7 @@ class ground extends Component {
     })
       // .setClassToggle("#reveal2", "visible2") // add class to reveal
       .setPin("#ground")
-      .addIndicators({ name: "ground" }) // add indicators (requires plugin)
+      // .addIndicators({ name: "ground" }) // add indicators (requires plugin)
       .addTo(this.state.controller);
   }
 
