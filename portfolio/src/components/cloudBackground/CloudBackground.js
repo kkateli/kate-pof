@@ -13,7 +13,7 @@ class CloudBackground extends Component {
   componentDidMount() {
     new ScrollMagic.Scene({ triggerElement: "#pin2" , triggerHook:0.65})
       .setPin("#pin2")
-      .addIndicators({ name: "2 (duration: 0)" }) // add indicators (requires plugin)
+    //   .addIndicators({ name: "2 (duration: 0)" }) // add indicators (requires plugin)
       .addTo(this.state.controller);
   }
   render() {
@@ -22,8 +22,8 @@ class CloudBackground extends Component {
         <div class="spacer s2" />
         <div id="trigger2" class="spacer s0" />
         <div id="pin2">
-          <img className="cloudBackground" src={cloudBig} alt="cloud big" />
-          <img className="cloudBackground" src={cloudBig} alt="cloud big" />
+          <img className="cloudBackground1" src={cloudBig} alt="cloud big" />
+          <img className="cloudBackground2" src={cloudBig} alt="cloud big" />
         </div>
         <div class="spacer s2" />
       </div>

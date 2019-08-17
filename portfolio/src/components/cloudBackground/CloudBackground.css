@@ -3,7 +3,11 @@
     top:-800px;
 }
 
-.cloudBackground{
-    width:50%;
+.cloudBackground1{
+    width:55%;
+    opacity: 0.5;
+}
+.cloudBackground2{
+    width:45%;
     opacity: 0.5;
 }
