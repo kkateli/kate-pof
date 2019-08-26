@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import "./Structure.css";
 import $ from "jquery";
-
+import languages from "../../assets/images/LANGUAGES.png";
+import tree from "../../assets/images/tree.png";
+import Leaf from "../leaf/Leaf";
 class Structure extends Component {
   
   componentDidMount() {
@@ -32,7 +34,9 @@ class Structure extends Component {
       <div>
         <div class="hori-scroll" id="dummy">
           <div class="in-scroll" >
-           <p>Start</p>
+           <img src={languages} alt="languages logo"  style={{marginLeft:"50px"}}/>
+           {/* <img src={tree} alt="tree" className="tree"/> */}
+           <Leaf />
             </div>
         </div>
       </div>

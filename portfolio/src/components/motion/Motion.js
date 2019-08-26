@@ -41,11 +41,11 @@ class Motion extends Component {
       .setPin("#myimg")
       .setClassToggle("#imagesequence", "visible") // add class to reveal
       .setTween(tween)
-      .addIndicators({
-        name: "scene",
-        colorTrigger: "black",
-        colorStart: "black"
-      }) // add indicators (requires plugin)
+      // .addIndicators({
+      //   name: "scene",
+      //   colorTrigger: "black",
+      //   colorStart: "black"
+      // }) // add indicators (requires plugin)
       .addTo(this.state.controller);
   }
   render() {

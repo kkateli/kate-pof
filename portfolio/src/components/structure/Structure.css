@@ -24,3 +24,10 @@
    
     font-size: 50px;
 }
+
+.tree{
+	position: absolute;
+	top:470px;
+	left:1000px;
+	width:250px;
+}
