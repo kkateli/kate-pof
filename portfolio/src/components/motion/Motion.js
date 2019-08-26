@@ -35,7 +35,7 @@ class Motion extends Component {
     new ScrollMagic.Scene({
       triggerElement: "#trigger",
       duration: 5000,
-      offset:1020,
+      offset:1040,
       triggerHook:0
     })
       .setPin("#myimg")
