@@ -1,0 +1,41 @@
+.languageTable{
+    position: absolute;
+    top:110px;
+    left:150px;
+}
+
+.languageLabel{
+    width:250px;
+    margin-bottom: 30px;
+}
+
+.languageTable td{
+    border-bottom:1px solid lightgreen;
+}
+
+.languages{
+    
+    margin-right:30px;
+}
+
+.leafDetail{
+    width:50px;
+    margin-left:45px;
+}
+
+#reactleaf{
+    margin-left:35px;
+}
+
+#cssLeaf{
+    margin-left:30px;
+}
+
+#javaLeaf{
+    margin-left:30px;
+}
+
+#jestLeaf{
+    margin-left:30px;
+}
+
