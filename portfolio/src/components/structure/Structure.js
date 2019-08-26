@@ -8,6 +8,7 @@ import LanguageTable from "../languageTable/LanguageTable";
 import kiwi from "../../assets/images/kiwi.png";
 import animation from "../../assets/images/ANIMATION.png";
 import AnimationTable from "../animationTable/AnimationTable";
+import kiwi2 from "../../assets/images/kiwi2.png";
 class Structure extends Component {
   
   componentDidMount() {
@@ -41,10 +42,12 @@ class Structure extends Component {
           <img src={languages} alt="languages logo"  style={{marginLeft:"50px"}}/>
           <Leaf />
           <LanguageTable />
-           <img src={tree} alt="tree" className="tree"/>
+           <img src={tree} alt="tree" id="tree1" className="tree"/>
           <img src={kiwi} alt="kiwi" className="kiwi" />
            <img src={animation} alt="animation" className="animation" />
          <AnimationTable />
+         <img src={kiwi2} alt="kiwi2" className="kiwi2" />
+         <img src={tree} alt="tree" id="tree2" className="tree"/>
             </div>
         </div>
       </div>

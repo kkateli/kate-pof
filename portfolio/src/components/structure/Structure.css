@@ -22,14 +22,28 @@
 .tree{
 	position: absolute;
 	top:470px;
-	left:1700px;
+	
 	width:250px;
+}
+#tree1{
+	left:1700px;
+}
+
+#tree2{
+	left:3400px;
 }
 
 .kiwi{
 	position: absolute;
 	top:640px;
 	left:1930px;
+	width:100px;
+}
+
+.kiwi2{
+	position: absolute;
+	top:640px;
+	left:3330px;
 	width:100px;
 }
 
