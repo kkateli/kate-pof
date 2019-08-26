@@ -9,6 +9,7 @@ import kiwi from "../../assets/images/kiwi.png";
 import animation from "../../assets/images/ANIMATION.png";
 import AnimationTable from "../animationTable/AnimationTable";
 import kiwi2 from "../../assets/images/kiwi2.png";
+import tools from "../../assets/images/TOOLS.png";
 class Structure extends Component {
   
   componentDidMount() {
@@ -44,10 +45,11 @@ class Structure extends Component {
           <LanguageTable />
            <img src={tree} alt="tree" id="tree1" className="tree"/>
           <img src={kiwi} alt="kiwi" className="kiwi" />
-           <img src={animation} alt="animation" className="animation" />
+           <img src={animation} alt="animation logo" className="animation" />
          <AnimationTable />
          <img src={kiwi2} alt="kiwi2" className="kiwi2" />
          <img src={tree} alt="tree" id="tree2" className="tree"/>
+         <img src={tools} alt="tools" className = "tools" />
             </div>
         </div>
       </div>

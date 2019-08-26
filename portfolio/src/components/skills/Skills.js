@@ -3,7 +3,7 @@ import Fe from "./fe/Fe";
 import Be from "./be/Be";
 import Uu from "./uu/Uu";
 import Dm from "./dm/Dm";
-import Seo from "./seo/Seo";
+import Ani from "./ani/Ani";
 import { Container } from "react-bootstrap";
 import "./skills.css";
 import { TweenMax, TimelineMax } from "gsap/TweenMax";
@@ -51,7 +51,7 @@ class Skills extends Component {
             <Dm />
           </div>
           <div className="digit">
-            <Seo />
+            <Ani />
           </div>
         </div>
 

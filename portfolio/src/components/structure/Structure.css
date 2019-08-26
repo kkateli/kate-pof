@@ -11,7 +11,7 @@
 
 .in-scroll {
 	height: 100vh;
-	width: 600vh; /* width of horizontal scroll */
+	width: 800vh; /* width of horizontal scroll */
     background-position: center;
     background-color:lightpink;
 	background-size: cover;
@@ -51,4 +51,10 @@
 	position:absolute;
 	top:0;
 	left:2100px;
+}
+
+.tools{
+	position:absolute;
+	top:0;
+	left:3800px;
 }
