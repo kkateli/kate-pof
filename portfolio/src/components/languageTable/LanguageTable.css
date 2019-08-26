@@ -1,6 +1,6 @@
 .languageTable{
     position: absolute;
-    top:110px;
+    top:90px;
     left:150px;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .languageTable td{
-    border-bottom:1px solid lightgreen;
+    border-bottom:1px solid #90BC4D;
 }
 
 .languages{

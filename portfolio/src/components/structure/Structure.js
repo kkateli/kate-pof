@@ -5,6 +5,9 @@ import languages from "../../assets/images/LANGUAGES.png";
 import tree from "../../assets/images/tree.png";
 import Leaf from "../leaf/Leaf";
 import LanguageTable from "../languageTable/LanguageTable";
+import kiwi from "../../assets/images/kiwi.png";
+import animation from "../../assets/images/ANIMATION.png";
+import AnimationTable from "../animationTable/AnimationTable";
 class Structure extends Component {
   
   componentDidMount() {
@@ -37,11 +40,11 @@ class Structure extends Component {
           <div class="in-scroll" >
           <img src={languages} alt="languages logo"  style={{marginLeft:"50px"}}/>
           <Leaf />
-          
-           {/* <img src={tree} alt="tree" className="tree"/> */}
           <LanguageTable />
-           
-         
+           <img src={tree} alt="tree" className="tree"/>
+          <img src={kiwi} alt="kiwi" className="kiwi" />
+           <img src={animation} alt="animation" className="animation" />
+         <AnimationTable />
             </div>
         </div>
       </div>

@@ -11,7 +11,7 @@
 
 .in-scroll {
 	height: 100vh;
-	width: 300vh; /* width of horizontal scroll */
+	width: 600vh; /* width of horizontal scroll */
     background-position: center;
     background-color:lightpink;
 	background-size: cover;
@@ -22,6 +22,19 @@
 .tree{
 	position: absolute;
 	top:470px;
-	left:1000px;
+	left:1700px;
 	width:250px;
+}
+
+.kiwi{
+	position: absolute;
+	top:640px;
+	left:1930px;
+	width:100px;
+}
+
+.animation{
+	position:absolute;
+	top:0;
+	left:2100px;
 }
