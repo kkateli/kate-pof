@@ -1,13 +1,11 @@
 #pin2{
     position: relative;
-    top:-800px;
+    top:-1236px;
+    
 }
 
-.cloudBackground1{
-    width:55%;
-    opacity: 0.5;
+.cloudBackground{
+    width:50%;
+    
 }
-.cloudBackground2{
-    width:45%;
-    opacity: 0.5;
-}
+
