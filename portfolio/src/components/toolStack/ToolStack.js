@@ -3,6 +3,18 @@ import ScrollMagic from "ScrollMagic";
 import "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
 import "scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
 import "./ToolStack.css";
+import wp from "../../assets/images/toolImg/wp.png";
+import babel from "../../assets/images/toolImg/babel.png";
+import npm from "../../assets/images/toolImg/npm.png";
+import rest from "../../assets/images/toolImg/rest.png";
+import linux from "../../assets/images/toolImg/linux.png";
+import aws from "../../assets/images/toolImg/aws.png";
+import azure from "../../assets/images/toolImg/azure.png";
+import json from "../../assets/images/toolImg/json.png";
+import xml from "../../assets/images/toolImg/xml.png";
+import ga from "../../assets/images/toolImg/ga.png";
+import gsc from "../../assets/images/toolImg/gsc.png";
+import wordpress from "../../assets/images/toolImg/wordpress.png";
 class ToolStack extends Component{
     state = {
        //NOTE 
@@ -28,18 +40,18 @@ class ToolStack extends Component{
 <div className="brickStack">
 <div class="spacer s0"></div>
 <div id="reveal-boxes">
-	<div class="box serie"><p>1</p></div>
-	<div class="box serie"><p>2</p></div>
-	<div class="box serie"><p>3</p></div>
-	<div class="box serie"><p>4</p></div>
-	<div class="box serie"><p>5</p></div>
-    <div class="box serie"><p>6</p></div>
-    <div class="box serie"><p>7</p></div>
-    <div class="box serie"><p>8</p></div>
-	<div class="box serie"><p>9</p></div>
-	<div class="box serie"><p>10</p></div>
-	<div class="box serie"><p>11</p></div>
-    <div class="box serie"><p>12</p></div>
+	<div class="box serie"><img src={wp} alt="webpack" /></div>
+	<div class="box serie"><img src={babel} alt="babel" /></div>
+	<div class="box serie"><img src={npm} alt="npm" /></div>
+	<div class="box serie"><img src={json} alt="json" /></div>
+	<div class="box serie"><img src={xml} alt="xml" /></div>
+    <div class="box serie"><img src={rest} alt="restapi" /></div>
+    <div class="box serie"><img src={linux} alt="linux" /></div>
+    <div class="box serie"><img src={aws} alt="aws" /></div>
+	<div class="box serie"><img src={azure} alt="azure" /></div>
+	<div class="box serie"><img src={ga} alt="ga" /></div>
+	<div class="box serie"><img src={gsc} alt="gsc" /></div>
+    <div class="box serie"><img src={wordpress} alt="wordpress" /></div>
 </div>
 <div class="spacer s2"></div>
 </div>
