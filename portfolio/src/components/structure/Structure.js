@@ -10,6 +10,8 @@ import animation from "../../assets/images/ANIMATION.png";
 import AnimationTable from "../animationTable/AnimationTable";
 import kiwi2 from "../../assets/images/kiwi2.png";
 import tools from "../../assets/images/TOOLS.png";
+import ToolStack from "../toolStack/ToolStack";
+import projects from "../../assets/images/PROJECTS.png";
 class Structure extends Component {
   
   componentDidMount() {
@@ -50,6 +52,9 @@ class Structure extends Component {
          <img src={kiwi2} alt="kiwi2" className="kiwi2" />
          <img src={tree} alt="tree" id="tree2" className="tree"/>
          <img src={tools} alt="tools" className = "tools" />
+         <ToolStack />
+         <img className ="projects" src={projects} alt="projects" />
+         <img src={tree} alt="tree" id="tree3" className="tree"/>
             </div>
         </div>
       </div>

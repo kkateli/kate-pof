@@ -1,0 +1,76 @@
+.serie {
+    opacity: 0;
+    -webkit-transform: translateX(-40px);
+         -moz-transform: translateX(-40px);
+            -ms-transform: translateX(-40px);
+             -o-transform: translateX(-40px);
+                    transform: translateX(-40px);
+    -webkit-transition: all 0.6s ease-out;
+         -moz-transition: all 0.6s ease-out;
+            -ms-transition: all 0.6s ease-out;
+             -o-transition: all 0.6s ease-out;
+                    transition: all 0.6s ease-out;
+}
+.serie.visible {
+    opacity: 1;
+    -webkit-transform: none;
+         -moz-transform: none;
+            -ms-transform: none;
+             -o-transform: none;
+                    transform: none;
+}
+.serie:nth-child(2) {
+    margin-top: 50px;
+}
+.serie:nth-child(3) {
+    margin-top: 100px;
+}
+.serie:nth-child(4) {
+    margin-top: 150px;
+}
+.serie:nth-child(5) {
+    margin-top: 200px;
+}
+.serie:nth-child(6) {
+    margin-top: 250px;
+}
+.serie:nth-child(7) {
+    margin-top: 250px;
+}
+.serie:nth-child(8) {
+    margin-top: 200px;
+}
+.serie:nth-child(9) {
+    margin-top: 150px;
+}
+.serie:nth-child(10) {
+    margin-top: 100px;
+}
+.serie:nth-child(11) {
+    margin-top: 50px;
+}
+.serie:nth-child(12) {
+    margin-top: 0px;
+}
+
+.brickStack{
+    position: absolute;
+    left:4050px;
+    top:100px;
+    width:400px;
+}
+
+.box{
+    padding:10px;
+    border:1px solid black;
+    margin:10px;
+    width:100px;
+    float:left;
+   
+    
+}
+
+#reveal-boxes{
+
+width:1500px;
+}

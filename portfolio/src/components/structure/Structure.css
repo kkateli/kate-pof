@@ -33,6 +33,10 @@
 	left:3400px;
 }
 
+#tree3{
+	left:4700px;
+}
+
 .kiwi{
 	position: absolute;
 	top:640px;
@@ -57,4 +61,10 @@
 	position:absolute;
 	top:0;
 	left:3800px;
+}
+
+.projects{
+	position:absolute;
+	top:0;
+	left:5600px;
 }
