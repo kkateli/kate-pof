@@ -13,6 +13,7 @@ import tools from "../../assets/images/TOOLS.png";
 import ToolStack from "../toolStack/ToolStack";
 import projects from "../../assets/images/PROJECTS.png";
 import Project1 from "../project1/Project1";
+import Project2 from "../project2/Project2";
 class Structure extends Component {
   
   componentDidMount() {
@@ -56,8 +57,10 @@ class Structure extends Component {
          <ToolStack />
          <img className ="projects" src={projects} alt="projects" />
          <img src={tree} alt="tree" id="tree3" className="tree"/>
-         <Project1 />
-            </div>
+         <Project2 /> 
+         <img src={tree} alt="tree" id="tree4" className="tree"/>
+         <Project1 />           
+         </div>
         </div>
       </div>
     );

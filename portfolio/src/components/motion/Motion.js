@@ -34,7 +34,7 @@ class Motion extends Component {
 
     new ScrollMagic.Scene({
       triggerElement: "#trigger",
-      duration: 10000,
+      duration: 15000,
       offset:1040,
       triggerHook:0
     })

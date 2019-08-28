@@ -1,0 +1,22 @@
+.project2{
+    position: absolute;
+    left:5700px;
+    top:150px;
+}
+
+.p2p1{
+    width:650px;
+}
+
+#detail2{
+    position: absolute;
+    top:50px;
+    left:500px;
+}
+
+#bee2{
+    position: absolute;
+    top:300px;
+    left:1100px;
+    width:200px;
+}
