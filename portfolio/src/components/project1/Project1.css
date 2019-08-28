@@ -1,0 +1,28 @@
+.project1{
+    position: absolute;
+    top:150px;
+    left:5800px;
+}
+
+#p1p1{
+    width:550px;
+    margin-bottom:30px;
+}
+
+.p1imgs{
+    width:250px;
+}
+
+#detail1{
+    position: absolute;
+    top:-200px;
+}
+
+#bee1{
+    position: absolute;
+    
+    left:1150px;
+    top:30px;
+    width:200px;
+
+}

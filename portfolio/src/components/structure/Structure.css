@@ -11,7 +11,7 @@
 
 .in-scroll {
 	height: 100vh;
-	width: 800vh; /* width of horizontal scroll */
+	width: 1000vh; /* width of horizontal scroll */
     background-position: center;
     background-color:lightpink;
 	background-size: cover;

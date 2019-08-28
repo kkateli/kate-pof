@@ -12,6 +12,7 @@ import kiwi2 from "../../assets/images/kiwi2.png";
 import tools from "../../assets/images/TOOLS.png";
 import ToolStack from "../toolStack/ToolStack";
 import projects from "../../assets/images/PROJECTS.png";
+import Project1 from "../project1/Project1";
 class Structure extends Component {
   
   componentDidMount() {
@@ -55,6 +56,7 @@ class Structure extends Component {
          <ToolStack />
          <img className ="projects" src={projects} alt="projects" />
          <img src={tree} alt="tree" id="tree3" className="tree"/>
+         <Project1 />
             </div>
         </div>
       </div>
