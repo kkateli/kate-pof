@@ -31,8 +31,8 @@ class ground extends Component {
         <div id="trigger3" class="spacer s0" />
 
         <div id="ground">
-          <img id="ground1" src={groundPic1} alt="ground" />
-          <img id="ground2" src={groundPic2} alt="ground" />
+          {/* <img id="ground1" src={groundPic1} alt="ground" />
+          <img id="ground2" src={groundPic2} alt="ground" /> */}
         </div>
 
         <div class="spacer s2" />

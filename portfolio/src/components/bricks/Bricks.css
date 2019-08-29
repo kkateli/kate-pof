@@ -1,8 +1,9 @@
 .bricks{
-    width:140%;
+    width:90%;
+    
     
 }
 
 .bricksWraper{
-    
+    margin-left:60px;
 }

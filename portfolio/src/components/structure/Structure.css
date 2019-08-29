@@ -72,6 +72,73 @@
 	top:0;
 	left:5600px;
 }
+#ground1{
+	width:700px;
+	left:0;
+}
+#ground2{
+	width:700px;
+	left:700px;
+}
+
+#ground3{
+	width:700px;
+	left:1400px;
+}
+#ground4{
+	width:700px;
+	left:2100px;
+}
+
+#ground5{
+	width:700px;
+	left:2800px;
+}
+#ground6{
+	width:700px;
+	left:3500px;
+}
+
+#ground7{
+	width:700px;
+	left:4200px;
+}
+
+#ground8{
+	width:700px;
+	left:4900px;
+}
+
+#ground9{
+	width:700px;
+	left:5600px;
+}
+#ground10{
+	width:700px;
+	left:6300px;
+}
+#ground11{
+	width:700px;
+	left:7000px;
+}
+#ground12{
+	width:700px;
+	left:7700px;
+}
+#ground13{
+	width:700px;
+	left:8400px;
+}
+#ground14{
+	width:700px;
+	left:9100px;
+}
+
+.groundBackground{
+	position: absolute;
+	top:760px;
+	
+}
 
 @media only screen and (max-height: 800px) {
 	.tree{
