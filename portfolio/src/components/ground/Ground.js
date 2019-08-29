@@ -15,7 +15,7 @@ class ground extends Component {
     new ScrollMagic.Scene({
       triggerElement: "#trigger3",
       triggerHook: 0, // show, when scrolled 10% into view
-      duration: "15000",
+      duration: "10800",
       offset: -2100 // hide 10% before exiting view (80% + 10% from bottom)
     })
       // .setClassToggle("#reveal2", "visible2") // add class to reveal

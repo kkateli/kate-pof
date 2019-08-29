@@ -17,6 +17,7 @@ import Project2 from "../project2/Project2";
 import ground from "../../assets/images/ground.png";
 import Project3 from "../project3/Project3";
 import contact from "../../assets/images/CONTACT.png";
+import Contact from "../contact/Contact";
 class Structure extends Component {
   componentDidMount() {
     var divh = $("#dummy").position().top;
@@ -90,6 +91,7 @@ class Structure extends Component {
             <Project3 />
             <img src={tree} alt="tree" id="tree6" className="tree" />
             <img src={contact} alt="contact" className="contact"/>
+            <Contact />
           </div>
         </div>
       </div>

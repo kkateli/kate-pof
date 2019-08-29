@@ -11,9 +11,9 @@
 
 .in-scroll {
 	height: 100vh;
-	width: 1700vh; /* width of horizontal scroll */
+	width: 1539vh; /* width of horizontal scroll */
     background-position: center;
-    background-color:lightpink;
+    background-color:white;
 	background-size: cover;
     transition: transform .15s linear;
     

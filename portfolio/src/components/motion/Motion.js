@@ -34,18 +34,18 @@ class Motion extends Component {
 
     new ScrollMagic.Scene({
       triggerElement: "#trigger",
-      duration: 15000,
+      duration: 13500,
       offset:1040,
       triggerHook:0
     })
       .setPin("#myimg")
       .setClassToggle("#imagesequence", "visible") // add class to reveal
       .setTween(tween)
-      // .addIndicators({
-      //   name: "scene",
-      //   colorTrigger: "black",
-      //   colorStart: "black"
-      // }) // add indicators (requires plugin)
+      .addIndicators({
+        name: "scene",
+        colorTrigger: "black",
+        colorStart: "black"
+      }) // add indicators (requires plugin)
       .addTo(this.state.controller);
   }
   render() {
