@@ -21,7 +21,7 @@ class JumpGirl extends Component {
     new ScrollMagic.Scene({
       triggerElement: "#trigger1",
       triggerHook: 0.5, // show, when scrolled 10% into view
-      duration: "940" // hide 10% before exiting view (80% + 10% from bottom)
+      duration: "930" // hide 10% before exiting view (80% + 10% from bottom)
     })
       .setClassToggle("#reveal1", "visible") // add class to reveal
       // .setClassToggle("#reveal2", "visible2") // add class to reveal

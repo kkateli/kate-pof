@@ -127,6 +127,15 @@ const languageTable = () => {
           <td>
             <img className="languageLabel" src={label_b} alt="label_b" />
           </td>
+          <td xs lg="3" />
+          <td xs lg="3" />
+          <td xs lg="3" />
+          <td xs lg="3" />
+          <td xs lg="3" />
+          <td xs lg="3" />
+          <td xs lg="3" />
+          <td xs lg="3" />
+          <td xs lg="3" />
         </tr>
       </table>
     </div>
