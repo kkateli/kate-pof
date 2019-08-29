@@ -1,5 +1,7 @@
 .bird{
     width:190px;
+    position: relative;
+    left:-10px;
     
 }
 
@@ -36,5 +38,6 @@
 #reveal-elements{
     position: relative;
     top:-1350px;
-    margin-left:15%;
+    margin-left:10%;
 }
+

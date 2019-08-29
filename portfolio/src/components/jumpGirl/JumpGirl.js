@@ -56,21 +56,22 @@ class JumpGirl extends Component {
           <div id="trigger2" class="spacer s0" />
           <div id="reveal2" class="spacer s0">
             <img className="skills" src={skills} alt="skills" />
+            <div className="skillLabelWrapper">
+            <div className="skillLabel beginner">Beginner</div>
+            <div className="skillLabel elementary">Elementary</div>
+            <div className="skillLabel intermediate">Intermediate</div>
+            <div className="skillLabel advanced">Advanced</div>
+            <div className="skillLabel expert">Expert</div>
+            </div>
             <img className="cloudBig1" src={cloud1} alt="Cloud Big1" />
             <img className="cloudBig2" src={cloud2} alt="Cloud Big2" />
             <img className="cloudBig3" src={cloud3} alt="Cloud Big3" />
             <img className="cloudBig4" src={cloud1} alt="Cloud Big4" />
             <img className="cloudBig5" src={cloud2} alt="Cloud Big5" />
             
-            <div className="skillLabel beginner">Beginner</div>
-            <div className="skillLabel elementary">Elementary</div>
-            <div className="skillLabel intermediate">Intermediate</div>
-            <div className="skillLabel advanced">Advanced</div>
-            <div className="skillLabel expert">Expert</div>
-            
           </div>
           <Skills />
-
+          
          
           
         </div>

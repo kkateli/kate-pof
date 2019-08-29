@@ -31,7 +31,7 @@ class ToolStack extends Component{
 								
 							})
 							.setClassToggle(revealElements[i], "visible") // add class toggle
-							.addIndicators({name: "serie " + (i+1) }) // add indicators (requires plugin)
+							// .addIndicators({name: "serie " + (i+1) }) // add indicators (requires plugin)
 							.addTo(this.state.controller);
 		}
       }

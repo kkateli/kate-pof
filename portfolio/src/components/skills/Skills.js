@@ -36,6 +36,7 @@ class Skills extends Component {
   render() {
     return (
       <div>
+        
         <div class="spacer s2" />
         <div id="reveal-elements">
           <div className="digit">
