@@ -21,7 +21,7 @@
 
 .tree{
 	position: absolute;
-	top:500px;
+	top:540px;
 	
 	width:250px;
 }
@@ -43,14 +43,14 @@
 
 .kiwi{
 	position: absolute;
-	top:680px;
+	top:720px;
 	left:1930px;
 	width:100px;
 }
 
 .kiwi2{
 	position: absolute;
-	top:680px;
+	top:720px;
 	left:3330px;
 	width:100px;
 }
@@ -137,12 +137,55 @@
 .groundBackground{
 	position: absolute;
 	top:760px;
+	z-index: 1;
 	
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (min-height:775px) and (max-height: 850px) {
 	.tree{
-		top:350px;
+		top:460px;
+	}
+
+	.kiwi{
+		
+		top:650px;
+		
+	}
+	
+	.kiwi2{
+		
+		top:650px;
+	}
+
+	.groundBackground{
+		top:680px;
+	}
+}
+
+@media only screen and (min-height:700px) and (max-height: 775px) {
+	.tree{
+		top:420px;
+	}
+
+	.kiwi{
+		
+		top:610px;
+		
+	}
+	
+	.kiwi2{
+		
+		top:610px;
+	}
+
+	.groundBackground{
+		top:640px;
+	}
+}
+
+@media only screen and (max-height: 700px) {
+	.tree{
+		top:360px;
 	}
 
 	.kiwi{
@@ -154,5 +197,9 @@
 	.kiwi2{
 		
 		top:550px;
+	}
+
+	.groundBackground{
+		top:580px;
 	}
 }

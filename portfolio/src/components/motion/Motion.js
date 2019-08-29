@@ -23,7 +23,7 @@ class Motion extends Component {
     var tween = TweenMax.to(obj, 0.5, {
       curImg: this.state.images.length - 1, // animate propery curImg to number of images
       roundProps: "curImg", // only integers so it can be used as an array index
-      repeat: 5, // repeat infinite times
+      repeat: 7, // repeat infinite times
       immediateRender: true, // load first image automatically
       ease: "Linear.easeNone", // show every image the same ammount of time
       onUpdate: () => {
