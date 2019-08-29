@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {Form, Button} from "react-bootstrap";
 import "./Contact.css";
 import thankyou from "../../assets/images/thankyou.png";
+import send from '../../assets/images/send.png';
 class Contact extends Component{
     render(){
         return(
@@ -25,9 +26,8 @@ class Contact extends Component{
     <Form.Label>Comments</Form.Label>
     <Form.Control as="textarea" rows="4" />
   </Form.Group>
-  <Button type="submit">
-    Submit
-  </Button>
+  
+  <img src={send} alt="send" className="send"/>
 </Form>
 <img src={thankyou} alt="thankyou" className="thankyou"/>
 </div>
