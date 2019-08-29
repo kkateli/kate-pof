@@ -15,6 +15,7 @@ import projects from "../../assets/images/PROJECTS.png";
 import Project1 from "../project1/Project1";
 import Project2 from "../project2/Project2";
 import ground from "../../assets/images/ground.png";
+import Project3 from "../project3/Project3";
 class Structure extends Component {
   componentDidMount() {
     var divh = $("#dummy").position().top;
@@ -65,6 +66,9 @@ class Structure extends Component {
             <img src={ground} alt="ground" className="groundBackground" id="ground12" />
             <img src={ground} alt="ground" className="groundBackground" id="ground13" />
             <img src={ground} alt="ground" className="groundBackground" id="ground14" />
+            <img src={ground} alt="ground" className="groundBackground" id="ground15" />
+            <img src={ground} alt="ground" className="groundBackground" id="ground16" />
+            <img src={ground} alt="ground" className="groundBackground" id="ground17" />
             <img src={tree} alt="tree" id="tree1" className="tree" />
             <img src={kiwi} alt="kiwi" className="kiwi" />
             <img src={animation} alt="animation logo" className="animation" />
@@ -78,6 +82,8 @@ class Structure extends Component {
             <Project2 />
             <img src={tree} alt="tree" id="tree4" className="tree" />
             <Project1 />
+            <img src={tree} alt="tree" id="tree5" className="tree" />
+            <Project3 />
             
           </div>
         </div>

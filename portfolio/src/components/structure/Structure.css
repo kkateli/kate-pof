@@ -41,6 +41,10 @@
 	left:7200px;
 }
 
+#tree5{
+	left:9500px;
+}
+
 .kiwi{
 	position: absolute;
 	top:720px;
@@ -132,6 +136,18 @@
 #ground14{
 	width:700px;
 	left:9100px;
+}
+#ground15{
+	width:700px;
+	left:9800px;
+}
+#ground16{
+	width:700px;
+	left:10500px;
+}
+#ground17{
+	width:700px;
+	left:11200px;
 }
 
 .groundBackground{
