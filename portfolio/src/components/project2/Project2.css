@@ -20,3 +20,11 @@
     left:1100px;
     width:200px;
 }
+
+@media only screen and (max-height: 800px) {
+    .project2{
+      
+        
+        top:120px;
+    }
+}

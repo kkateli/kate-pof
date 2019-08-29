@@ -22,3 +22,10 @@
     width:90px;
 
 }
+
+@media only screen and (max-height: 800px) {
+    .animationLabel{
+        width:200px;
+        margin-bottom: 20px;
+    }
+}

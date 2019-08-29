@@ -1,20 +1,23 @@
-#imagesequence{
-    
-    padding-bottom: 2000px;
-   
+#imagesequence {
+  padding-bottom: 2000px;
 }
 
 #imagesequence {
-    opacity: 0;
-    
+  opacity: 0;
 }
 #imagesequence.visible {
-    opacity: 1;
-   
+  opacity: 1;
 }
 
-#myimg{
-    z-index: 10;
-    position: relative;
-    top:550px;
+#myimg {
+  z-index: 10;
+  position: relative;
+  top: 550px;
+}
+
+@media only screen and (max-height: 800px) {
+  #myimg {
+    top: 480px;
+    width:250px;
+  }
 }

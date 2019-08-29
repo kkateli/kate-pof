@@ -26,3 +26,13 @@
     width:200px;
 
 }
+
+@media only screen and (max-height: 800px) {
+    .project1{
+        
+        top:120px;
+        
+    }
+    
+}
+    

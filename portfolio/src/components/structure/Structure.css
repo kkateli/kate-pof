@@ -21,7 +21,7 @@
 
 .tree{
 	position: absolute;
-	top:470px;
+	top:500px;
 	
 	width:250px;
 }
@@ -43,14 +43,14 @@
 
 .kiwi{
 	position: absolute;
-	top:640px;
+	top:680px;
 	left:1930px;
 	width:100px;
 }
 
 .kiwi2{
 	position: absolute;
-	top:640px;
+	top:680px;
 	left:3330px;
 	width:100px;
 }
@@ -71,4 +71,21 @@
 	position:absolute;
 	top:0;
 	left:5600px;
+}
+
+@media only screen and (max-height: 800px) {
+	.tree{
+		top:350px;
+	}
+
+	.kiwi{
+		
+		top:550px;
+		
+	}
+	
+	.kiwi2{
+		
+		top:550px;
+	}
 }

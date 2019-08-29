@@ -21,7 +21,7 @@ class JumpGirl extends Component {
     new ScrollMagic.Scene({
       triggerElement: "#trigger1",
       triggerHook: 0.5, // show, when scrolled 10% into view
-      duration: "960" // hide 10% before exiting view (80% + 10% from bottom)
+      duration: "940" // hide 10% before exiting view (80% + 10% from bottom)
     })
       .setClassToggle("#reveal1", "visible") // add class to reveal
       // .setClassToggle("#reveal2", "visible2") // add class to reveal
@@ -49,7 +49,7 @@ class JumpGirl extends Component {
         <div class="spacer s2" />
           <div id="trigger1" class="spacer s0" />
           <div id="reveal1" class="box2 blue">
-            <img src={jump} alt="jump girl" />
+            <img src={jump} className="jumpGirl" alt="jump girl" />
           </div>
 
           <div class="spacer s2" />

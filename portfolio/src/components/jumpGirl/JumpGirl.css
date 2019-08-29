@@ -100,6 +100,19 @@
   padding-bottom: 30px;
 }
 
+@media only screen and (max-height: 800px) {
+.jumpGirl{
+  width:250px;
+}
+.skills{
+  
+  top:-1150px;
+ 
+  
+}
+
+}
+
 
 
 

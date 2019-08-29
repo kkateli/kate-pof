@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import groundPic1 from "../../assets/images/ground.png";
 import groundPic2 from "../../assets/images/ground.png";
-import { TweenMax } from "gsap/TweenMax";
+
 // import TimelineMax from "gsap";
 import ScrollMagic from "ScrollMagic";
 import "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
