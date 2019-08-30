@@ -17,7 +17,7 @@ import ground from "../../assets/images/ground.png";
 import Project3 from "../project3/Project3";
 import contact from "../../assets/images/CONTACT.png";
 import Contact from "../contact/Contact";
-import SideDraw1 from "../sideDraw1/SideDraw1";
+import Card from "../sideDraw1/SideDraw1";
 
 class Structure extends Component {
   componentDidMount() {
@@ -75,7 +75,7 @@ class Structure extends Component {
             <img src={ground} alt="ground" className="groundBackground" id="ground18" />
             <img src={ground} alt="ground" className="groundBackground" id="ground19" />
           
-           <SideDraw1 />
+           <Card />
             <img src={animation} alt="animation logo" className="animation" />
             <AnimationTable />
             <img src={kiwi2} alt="kiwi2" className="kiwi2" />

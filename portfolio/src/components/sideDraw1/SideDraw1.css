@@ -1,8 +1,8 @@
 .kiwi {
   width: 100px;
   position: relative;
-  top:-60px;
-  left:-480px;
+  top:-100px;
+  left:100px;
 }
 
 .seagle {
@@ -23,9 +23,9 @@
   border-radius: 50%;
 }
 
-.sideDraw1{
-  position: absolute;
-  top:10px;
+#sideDraw1{
+  position: relative;
+  top:-600px;
   left:1500px;
 }
 
