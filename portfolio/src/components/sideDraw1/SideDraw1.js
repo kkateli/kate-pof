@@ -18,27 +18,31 @@ class SideDraw extends Component {
       componentDidMount() {
         var tween = new TimelineMax ()
         .add([
-            
-            TweenMax.fromTo("#sideDraw1 .kiwi", 1, {left: 100}, {left: -350, ease: Linear.easeNone}),
+          
+            TweenMax.fromTo("#sideDraw1 .kiwi", 1, {left: 100}, {left: -450, ease: Linear.easeNone}),
+            TweenMax.fromTo("#sideDraw1 .seagle", 1, {left: 500}, {left: -50, ease: Linear.easeNone}),
+            TweenMax.fromTo("#sideDraw1 .seagle2", 1, {left: 500}, {left: -50, ease: Linear.easeNone})
         ]);
 
     // build scene
-    new ScrollMagic.Scene({triggerElement: "#sideDraw1", duration: 500, offset: 250})
+    new ScrollMagic.Scene({triggerElement: "#sideDraw1", offset:-200})
                     .setTween(tween) 
-                   
-                    .addIndicators({name:"sideDraw"}) // add indicators (requires plugin)
+                    // .addIndicators({name:"sideDraw"}) // add indicators (requires plugin)
                     .addTo(this.state.controller);
 }
 
   render() {
     return (
-      <div id="sideDraw1">
+      <div className="sideDraw1Wrapper">
+<div id="sideDraw1">
         <div className="circle"></div>
         <img src={seagle2} alt="seagle2" className="seagle2" />
         <img src={seagle} alt="seagle" className="seagle" />
         <img src={tree} alt="tree" id="tree1" />
         <img src={kiwi} alt="kiwi" className="kiwi" />
       </div>
+      </div>
+      
     );
   }
 }
