@@ -19,6 +19,13 @@
     
 }
 
+.languageLogo{
+	z-index: 1;
+	margin-left: 50px;
+	position: absolute;
+	top:-10px;
+}
+
 .tree{
 	position: absolute;
 	top:540px;
@@ -65,8 +72,9 @@
 
 .animation{
 	position:absolute;
-	top:0;
+	top:-10px;
 	left:2100px;
+	z-index: 1;
 }
 
 .tools{

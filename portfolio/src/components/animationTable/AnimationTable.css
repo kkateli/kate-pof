@@ -13,19 +13,35 @@
     border-bottom: 1px solid #90BC4D;
 }
 
-.animationDetail{
-    margin-left:50px;
-}
 
 .flower{
-    margin-left:90px;
+    margin-left:40px;
     width:90px;
 
 }
+
+.animationDetail{
+    padding:10px;
+    background-color: #90BC4D;
+    font-size: 18px;
+    color:white;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    display: inline;
+    margin-right:50px; 
+   
+  }
 
 @media only screen and (max-height: 800px) {
     .animationLabel{
         width:200px;
         margin-bottom: 20px;
+    }
+
+    .flower{
+        margin-left:40px;
+        width:70px;
+    
     }
 }

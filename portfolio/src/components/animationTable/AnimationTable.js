@@ -18,16 +18,16 @@ const animationTable =()=>{
         <tr>
           <th xs lg="3" />
           <th>
-            <img src={scrollmagic} alt="scrollmagic" className="animationDetail" />
+           <div className="animationDetail">ScrollMagic</div>
           </th>
           <th>
-            <img src={gsap} alt="gsap" className="animationDetail" />
+          <div className="animationDetail">GSAP</div>
           </th>
           <th>
-            <img src={pixijs} alt="pixijs" className="animationDetail" />
+          <div className="animationDetail">PixiJS</div>
           </th>
           <th>
-            <img src={threejs} alt="threejs" className="animationDetail" />
+          <div className="animationDetail">Three.js</div>
           </th>
         </tr>
         <tr>

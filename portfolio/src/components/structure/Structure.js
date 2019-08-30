@@ -50,7 +50,7 @@ class Structure extends Component {
             <img
               src={languages}
               alt="languages logo"
-              style={{ marginLeft: "50px" }}
+              className="languageLogo"
             />
             <Leaf />
             <LanguageTable />

@@ -13,10 +13,6 @@
     border-bottom:1px solid #90BC4D;
 }
 
-.languages{
-    
-    margin-right:30px;
-}
 
 .leafDetail{
     width:50px;
@@ -39,10 +35,31 @@
     margin-left:30px;
 }
 
+.languages{
+    padding:10px;
+    background-color: #90BC4D;
+    font-size: 18px;
+    color:white;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    display: inline;
+    margin-right:30px;
+    
+   
+    
+  }
+
 @media only screen and (max-height: 800px) {
     .languageLabel{
         width:200px;
         margin-bottom: 20px;
     }
+
+    .leafDetail{
+        width:40px;
+       
+    }
+    
 }
 

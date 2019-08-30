@@ -4,15 +4,6 @@ import label_b from "../../assets/images/label_b.png";
 import label_e from "../../assets/images/label_e.png";
 import label_ex from "../../assets/images/label_ex.png";
 import label_i from "../../assets/images/label_i.png";
-import css from "../../assets/images/css.png";
-import html from "../../assets/images/html.png";
-import java from "../../assets/images/java.png";
-import python from "../../assets/images/python.png";
-import javascript from "../../assets/images/Javascript.png";
-import jest from "../../assets/images/jest.png";
-import react from "../../assets/images/react.png";
-import redux from "../../assets/images/redux.png";
-import enzyme from "../../assets/images/enzyme.png";
 import leaf from "../../assets/images/leaf.png";
 import "./LanguageTable.css";
 const languageTable = () => {
@@ -22,31 +13,31 @@ const languageTable = () => {
         <tr>
           <th xs lg="3" />
           <th>
-            <img src={javascript} alt="javascript" className="languages" />
+            <div className="languages">JavaScript</div>
           </th>
           <th>
-            <img src={react} alt="react" className="languages" />
+          <div className="languages">React</div>
           </th>
           <th>
-            <img src={redux} alt="redux" className="languages" />
+          <div className="languages">Redux</div>
           </th>
           <th>
-            <img src={css} alt="css" className="languages" />
+          <div className="languages">CSS</div>
           </th>
           <th>
-            <img src={html} alt="html" className="languages" />
+          <div className="languages">HTML</div>
           </th>
           <th>
-            <img src={java} alt="java" className="languages" />
+          <div className="languages">Java</div>
           </th>
           <th>
-            <img src={python} alt="python" className="languages" />
+          <div className="languages">Python</div>
           </th>
           <th>
-            <img src={jest} alt="jest" className="languages" />
+          <div className="languages">Jest</div>
           </th>
           <th>
-            <img src={enzyme} alt="enzyme" className="languages" />
+          <div className="languages">Enzyme</div>
           </th>
         </tr>
         <tr>
