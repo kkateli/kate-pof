@@ -15,6 +15,8 @@ import xml from "../../assets/images/toolImg/xml.png";
 import ga from "../../assets/images/toolImg/ga.png";
 import gsc from "../../assets/images/toolImg/gsc.png";
 import wordpress from "../../assets/images/toolImg/wordpress.png";
+import tools from "../../assets/images/TOOLS.png";
+import star from "../../assets/images/star.png";
 class ToolStack extends Component{
     state = {
        //NOTE 
@@ -38,6 +40,12 @@ class ToolStack extends Component{
     render(){
         return(
 <div className="brickStack">
+<img src={tools} alt="tools" className="tools" />
+<img src={star} alt="star" id="star1" />
+<img src={star} alt="star" id="star2" />
+<img src={star} alt="star" id="star3" />
+<img src={star} alt="star" id="star4" />
+<img src={star} alt="star" id="star5" />
 <div class="spacer s0"></div>
 <div id="reveal-boxes">
 	<div class="box serie"><img src={wp} alt="webpack" /></div>

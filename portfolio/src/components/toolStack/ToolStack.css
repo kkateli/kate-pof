@@ -55,9 +55,58 @@
 
 .brickStack{
     position: absolute;
-    left:4050px;
+    left:3500px;
+    top:0;
+    height:100vh;
+    background-color:#0059b3;  
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
+    width:2500px;
+    
+}
+.tools{
+	position:absolute;
+	top:0;
+    left:800px;
+    z-index: 1;
+}
+
+#star1{
+    position:relative;
+    top:250px;
+    left:800px;
+    width:50px;
+    z-index: 1;
+}
+#star2{
+    position:relative;
+    top:350px;
+    left:850px;
+    width:40px;
+    z-index: 1;
+}
+
+#star3{
+    position:relative;
+    top:280px;
+    left:1000px;
+    width:30px;
+    z-index: 1;
+}
+
+#star4{
+    position:relative;
     top:100px;
-    width:400px;
+    left:1600px;
+    width:30px;
+    z-index: 1;
+}
+
+#star5{
+    position:relative;
+    top:60px;
+    left:1900px;
+    width:40px;
+    z-index: 1;
 }
 
 .box{
@@ -71,6 +120,8 @@
 }
 
 #reveal-boxes{
-
+position: relative;
+top:80px;
+left:1000px;
 width:1500px;
 }
