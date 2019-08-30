@@ -71,8 +71,12 @@ const languageTable = () => {
           <td>
             <img className="leafDetail" src={leaf} alt="leaf" />
           </td>
-          <td xs lg="3" />
-          <td xs lg="3" />
+          <td>
+            <img className="leafDetail" id="cssLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="cssLeaf" src={leaf} alt="leaf" />
+          </td>
           <td xs lg="3" />
           <td xs lg="3" />
           <td xs lg="3" />
@@ -82,11 +86,21 @@ const languageTable = () => {
           <td>
             <img className="languageLabel" src={label_i} alt="label_i" />
           </td>
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
+          <td>
+            <img className="leafDetail" id="cssLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="cssLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="cssLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="cssLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="cssLeaf" src={leaf} alt="leaf" />
+          </td>
           <td>
             <img className="leafDetail" id="javaLeaf" src={leaf} alt="leaf" />
           </td>
@@ -100,13 +114,27 @@ const languageTable = () => {
           <td>
             <img className="languageLabel" src={label_e} alt="label_e" />
           </td>
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
           <td>
             <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
           </td>
@@ -118,15 +146,33 @@ const languageTable = () => {
           <td>
             <img className="languageLabel" src={label_b} alt="label_b" />
           </td>
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
+          <td>
+            <img className="leafDetail" id="jestLeaf" src={leaf} alt="leaf" />
+          </td>
         </tr>
       </table>
     </div>

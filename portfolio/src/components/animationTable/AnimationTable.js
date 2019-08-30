@@ -41,7 +41,9 @@ const animationTable =()=>{
           <td>
             <img className="animationLabel" src={label_a} alt="label_a" />
           </td>
-          <td xs lg="3" />
+          <td>
+              <img className="flower" src={flower} alt="flower" />
+          </td>
           <td xs lg="3" />
           <td xs lg="3" />
           <td xs lg="3" />
@@ -51,7 +53,9 @@ const animationTable =()=>{
           <td>
             <img className="animationLabel" src={label_i} alt="label_i" />
           </td>
-          <td xs lg="3" />
+          <td>
+              <img className="flower" src={flower} alt="flower" />
+          </td>
           <td>
               <img className="flower" src={flower} alt="flower" />
           </td>
@@ -67,20 +71,36 @@ const animationTable =()=>{
           <td>
             <img className="animationLabel" src={label_e} alt="label_e" />
           </td>
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
+          <td>
+              <img className="flower" src={flower} alt="flower" />
+          </td>
+          <td>
+              <img className="flower" src={flower} alt="flower" />
+          </td>
+          <td>
+              <img className="flower" src={flower} alt="flower" />
+          </td>
+          <td>
+              <img className="flower" src={flower} alt="flower" />
+          </td>
           
         </tr>
         <tr>
           <td>
             <img className="animationLabel" src={label_b} alt="label_b" />
           </td>
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
-          <td xs lg="3" />
+          <td>
+              <img className="flower" src={flower} alt="flower" />
+          </td>
+          <td>
+              <img className="flower" src={flower} alt="flower" />
+          </td>
+          <td>
+              <img className="flower" src={flower} alt="flower" />
+          </td>
+          <td>
+              <img className="flower" src={flower} alt="flower" />
+          </td>
         
         </tr>
       </table>
