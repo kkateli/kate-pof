@@ -4,10 +4,6 @@ import label_b from "../../assets/images/label_b.png";
 import label_e from "../../assets/images/label_e.png";
 import label_ex from "../../assets/images/label_ex.png";
 import label_i from "../../assets/images/label_i.png";
-import scrollmagic from "../../assets/images/scrollMagic.png";
-import pixijs from "../../assets/images/pixijs.png";
-import threejs from "../../assets/images/threejs.png";
-import gsap from "../../assets/images/gsap.png";
 import flower from "../../assets/images/flower.png";
 import "./AnimationTable.css";
 const animationTable =()=>{

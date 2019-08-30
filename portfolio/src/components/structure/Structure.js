@@ -5,7 +5,6 @@ import languages from "../../assets/images/LANGUAGES.png";
 import tree from "../../assets/images/tree.png";
 import Leaf from "../leaf/Leaf";
 import LanguageTable from "../languageTable/LanguageTable";
-import kiwi from "../../assets/images/kiwi.png";
 import animation from "../../assets/images/ANIMATION.png";
 import AnimationTable from "../animationTable/AnimationTable";
 import kiwi2 from "../../assets/images/kiwi2.png";
@@ -18,6 +17,8 @@ import ground from "../../assets/images/ground.png";
 import Project3 from "../project3/Project3";
 import contact from "../../assets/images/CONTACT.png";
 import Contact from "../contact/Contact";
+import SideDraw1 from "../sideDraw1/SideDraw1";
+
 class Structure extends Component {
   componentDidMount() {
     var divh = $("#dummy").position().top;
@@ -73,9 +74,8 @@ class Structure extends Component {
             <img src={ground} alt="ground" className="groundBackground" id="ground17" />
             <img src={ground} alt="ground" className="groundBackground" id="ground18" />
             <img src={ground} alt="ground" className="groundBackground" id="ground19" />
-           
-            <img src={tree} alt="tree" id="tree1" className="tree" />
-            <img src={kiwi} alt="kiwi" className="kiwi" />
+          
+           <SideDraw1 />
             <img src={animation} alt="animation logo" className="animation" />
             <AnimationTable />
             <img src={kiwi2} alt="kiwi2" className="kiwi2" />

@@ -20,7 +20,7 @@
 }
 
 .languageLogo{
-	z-index: 1;
+	
 	margin-left: 50px;
 	position: absolute;
 	top:-10px;
@@ -30,11 +30,9 @@
 	position: absolute;
 	top:540px;
 	
-	width:250px;
+	width:450px;
 }
-#tree1{
-	left:1700px;
-}
+
 
 #tree2{
 	left:3400px;
@@ -56,17 +54,12 @@
 	left:11500px;
 }
 
-.kiwi{
-	position: absolute;
-	top:720px;
-	left:1930px;
-	width:100px;
-}
+
 
 .kiwi2{
 	position: absolute;
 	top:720px;
-	left:3330px;
+	left:3450px;
 	width:100px;
 }
 
@@ -186,7 +179,7 @@
 
 @media only screen and (min-height:775px) and (max-height: 850px) {
 	.tree{
-		top:460px;
+		top:380px;
 	}
 
 	.kiwi{
@@ -207,7 +200,7 @@
 
 @media only screen and (min-height:700px) and (max-height: 775px) {
 	.tree{
-		top:420px;
+		top:380px;
 	}
 
 	.kiwi{
@@ -228,7 +221,7 @@
 
 @media only screen and (max-height: 700px) {
 	.tree{
-		top:360px;
+		top:280px;
 	}
 
 	.kiwi{
