@@ -59,8 +59,8 @@
     top:0;
     height:100vh;
     background-color:#0059b3;  
-    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
-    width:2500px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+    width:3500px;
     
 }
 .tools{
