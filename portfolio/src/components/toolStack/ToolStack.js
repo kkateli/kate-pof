@@ -17,6 +17,8 @@ import gsc from "../../assets/images/toolImg/gsc.png";
 import wordpress from "../../assets/images/toolImg/wordpress.png";
 import tools from "../../assets/images/TOOLS.png";
 import star from "../../assets/images/star.png";
+import cloud1 from '../../assets/images/darkCloud1.png';
+import cloud2 from "../../assets/images/darkCloud2.png";
 class ToolStack extends Component{
     state = {
        //NOTE 
@@ -46,6 +48,19 @@ class ToolStack extends Component{
 <img src={star} alt="star" id="star3" />
 <img src={star} alt="star" id="star4" />
 <img src={star} alt="star" id="star5" />
+<img src={cloud1} alt="cloud" id="darkCloud1" />
+<img src={cloud1} alt="cloud" id="darkCloud2" />
+<img src={cloud1} alt="cloud" id="darkCloud3" />
+<img src={cloud1} alt="cloud" id="darkCloud4" />
+<img src={cloud1} alt="cloud" id="darkCloud5" />
+<img src={cloud1} alt="cloud" id="darkCloud6" />
+<img src={cloud2} alt="cloud" id="darkCloud7" />
+<img src={cloud2} alt="cloud" id="darkCloud8" />
+<img src={cloud2} alt="cloud" id="darkCloud9" />
+<img src={cloud2} alt="cloud" id="darkCloud10" />
+<img src={cloud2} alt="cloud" id="darkCloud11" />
+<img src={cloud2} alt="cloud" id="darkCloud12" />
+
 <div class="spacer s0"></div>
 <div id="reveal-boxes">
 	<div class="box serie"><img src={wp} alt="webpack" /></div>

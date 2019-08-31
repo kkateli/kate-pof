@@ -1,5 +1,6 @@
 .serie {
     opacity: 0;
+    background-color: white;
     -webkit-transform: translateX(-40px);
          -moz-transform: translateX(-40px);
             -ms-transform: translateX(-40px);
@@ -58,11 +59,81 @@
     left:3500px;
     top:0;
     height:100vh;
-    background-color:#0059b3;  
+    background-color: #033E5E;  
     clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
     width:3500px;
     
 }
+#darkCloud1{
+    position: absolute;
+    bottom:0;
+    left:100px;
+    z-index: 1;
+}
+
+#darkCloud2{
+    position: absolute;
+    bottom:-10px;
+    left:660px;
+    z-index: 1;
+}
+#darkCloud3{
+    position: absolute;
+    bottom:-20px;
+    left:1220px;
+    z-index: 1;
+}
+#darkCloud4{
+    position: absolute;
+    bottom:-30px;
+    left:1780px;
+    z-index: 1;
+}
+#darkCloud5{
+    position: absolute;
+    bottom:-40px;
+    left:2340px;
+    z-index: 1;
+}
+#darkCloud6{
+    position: absolute;
+    bottom:-50px;
+    left:2900px;
+    z-index: 1;
+}
+
+#darkCloud7{
+    position: absolute;
+    bottom:30px;
+    left:70px;
+}
+#darkCloud8{
+    position: absolute;
+    bottom:20px;
+    left:630px;
+}
+#darkCloud9{
+    position: absolute;
+    bottom:10px;
+    left:1190px;
+}
+#darkCloud10{
+    position: absolute;
+    bottom:0px;
+    left:1750px;
+}
+#darkCloud11{
+    position: absolute;
+    bottom:-10px;
+    left:2310px;
+}
+#darkCloud12{
+    position: absolute;
+    bottom:-20px;
+    left:2870px;
+}
+
+
 .tools{
 	position:absolute;
 	top:0;
