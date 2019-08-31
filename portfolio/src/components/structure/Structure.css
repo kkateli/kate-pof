@@ -39,12 +39,9 @@
 	z-index: 1;
 }
 
-#tree3{
-	left:4700px;
-}
-
 #tree4{
-	left:7200px;
+	left:6700px;
+	
 }
 
 #tree5{
@@ -81,7 +78,7 @@
 .projects{
 	position:absolute;
 	top:0;
-	left:6600px;
+	left:6300px;
 }
 #ground1{
 	width:700px;

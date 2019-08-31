@@ -83,7 +83,6 @@ class Structure extends Component {
            <img src={moon} alt="moon" className="moon" />
             <ToolStack />
             <img className="projects" src={projects} alt="projects" />
-            {/* <img src={tree} alt="tree" id="tree3" className="tree"/> */}
             <Project2 />
             <img src={tree} alt="tree" id="tree4" className="tree" />
             <Project1 />

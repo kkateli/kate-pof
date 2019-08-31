@@ -64,6 +64,8 @@
     width:3500px;
     
 }
+
+
 #darkCloud1{
     position: absolute;
     bottom:0;
@@ -101,38 +103,6 @@
     left:2900px;
     z-index: 1;
 }
-
-#darkCloud7{
-    position: absolute;
-    bottom:30px;
-    left:70px;
-}
-#darkCloud8{
-    position: absolute;
-    bottom:20px;
-    left:630px;
-}
-#darkCloud9{
-    position: absolute;
-    bottom:10px;
-    left:1190px;
-}
-#darkCloud10{
-    position: absolute;
-    bottom:0px;
-    left:1750px;
-}
-#darkCloud11{
-    position: absolute;
-    bottom:-10px;
-    left:2310px;
-}
-#darkCloud12{
-    position: absolute;
-    bottom:-20px;
-    left:2870px;
-}
-
 
 .tools{
 	position:absolute;

@@ -1,30 +1,42 @@
 .project1{
     position: absolute;
-    top:150px;
-    left:7800px;
-}
-
-#p1p1{
-    width:550px;
-    margin-bottom:30px;
-}
-
-.p1imgs{
-    width:250px;
-}
-
-#detail1{
-    position: absolute;
-    top:-200px;
+    left:7000px;
+    
+    
 }
 
 #bee1{
     position: absolute;
     
-    left:1150px;
-    top:30px;
+    left:650px;
+    top:-100px;
     width:200px;
+    z-index: 2;
 
+}
+
+.house1{
+    width:800px;
+    position: absolute;
+    top:-90px;
+    z-index: 1;
+}
+
+#base1{
+    padding:50px 303px;
+    background-color: #434343;
+    position: absolute;
+    top:500px;
+    left:70px;
+    
+}
+#base2{
+    padding:100px 450px;
+    background-color: #434343;
+    position: absolute;
+    top:400px;
+    left:780px;
+    
 }
 
 @media only screen and (max-height: 800px) {
