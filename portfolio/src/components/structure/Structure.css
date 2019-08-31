@@ -45,7 +45,8 @@
 }
 
 #tree5{
-	left:9500px;
+	left:9620px;
+	z-index: 1;
 }
 
 #tree6{
@@ -83,84 +84,103 @@
 #ground1{
 	width:700px;
 	left:0;
+	z-index: 2;
 }
 #ground2{
 	width:700px;
 	left:700px;
+	z-index: 2;
 }
 
 #ground3{
 	width:700px;
 	left:1400px;
+	z-index: 2;
 }
 #ground4{
 	width:700px;
 	left:2100px;
+	z-index: 2;
 }
 
 #ground5{
 	width:700px;
 	left:2800px;
+	z-index: 2;
 }
 #ground6{
 	width:700px;
 	left:3500px;
+	z-index: 2;
 }
 
 #ground7{
 	width:700px;
 	left:4200px;
+	z-index: 2;
 }
 
 #ground8{
 	width:700px;
 	left:4900px;
+	z-index: 2;
 }
 
 #ground9{
 	width:700px;
 	left:5600px;
+	z-index: 2;
 }
 #ground10{
 	width:700px;
 	left:6300px;
+	z-index: 2;
 }
 #ground11{
 	width:700px;
 	left:7000px;
+	z-index: 2;
 }
 #ground12{
 	width:700px;
 	left:7700px;
+	z-index: 2;
 }
 #ground13{
 	width:700px;
 	left:8400px;
+	z-index: 2;
 }
 #ground14{
 	width:700px;
 	left:9100px;
+	z-index: 2;
 }
 #ground15{
 	width:700px;
 	left:9800px;
+	z-index: 2;
 }
 #ground16{
 	width:700px;
 	left:10500px;
+	z-index: 2;
 }
 #ground17{
 	width:700px;
 	left:11200px;
+	z-index: 2;
 }
 
 #ground18{
 	width:700px;
 	left:11900px;
+	z-index: 2;
 }
 #ground19{
 	width:700px;
 	left:12600px;
+	z-index: 2;
 }
 
 .groundBackground{
