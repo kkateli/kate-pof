@@ -1,5 +1,8 @@
 import React, {Component} from "react";
+import {TimelineMax} from "gsap/TimelineMax";
+import {TweenMax} from "gsap/TweenMax";
 import ScrollMagic from "ScrollMagic";
+import {Linear} from "gsap/EasePack";
 import "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
 import "scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
 import "./ToolStack.css";
@@ -38,16 +41,46 @@ class ToolStack extends Component{
 							// .addIndicators({name: "serie " + (i+1) }) // add indicators (requires plugin)
 							.addTo(this.state.controller);
 		}
+		//star set1 move
+		var tween = new TimelineMax ()
+		.add([
+			TweenMax.fromTo(".starSet1 #star1", 1, {left: 800}, {left: 400, ease: Linear.easeNone}),
+			TweenMax.fromTo(".starSet1 #star2", 1, {left: 850}, {left: 400, ease: Linear.easeNone}),
+			TweenMax.fromTo(".starSet1 #star3", 1, {left: 1000}, {left: 400, ease: Linear.easeNone}),
+			TweenMax.fromTo(".starSet1 #star4", 1, {left: 1600}, {left: 400, ease: Linear.easeNone}),
+			TweenMax.fromTo(".starSet1 #star5", 1, {left: 1900}, {left: 400, ease: Linear.easeNone})
+		]);
+
+		new ScrollMagic.Scene({triggerElement: ".starSet1", offset:1000 })
+					.setTween(tween)
+					.addIndicators({name:"starSet1"}) // add indicators (requires plugin)
+					.addTo(this.state.controller);
+//star set2 move
+		var tween = new TimelineMax ()
+					.add([
+						
+						TweenMax.fromTo(".starSet2 #star4", 1, {left: 1600}, {left: 2500, ease: Linear.easeNone}),
+						TweenMax.fromTo(".starSet2 #star5", 1, {left: 1900}, {left: 2500, ease: Linear.easeNone})
+					]);
+			
+					new ScrollMagic.Scene({triggerElement: ".starSet2", offset:1700 })
+								.setTween(tween)
+								.addIndicators({name:"starSet2"}) // add indicators (requires plugin)
+								.addTo(this.state.controller);
       }
     render(){
         return(
 <div className="brickStack">
 <img src={tools} alt="tools" className="tools" />
+<div className="starSet1">
 <img src={star} alt="star" id="star1" />
 <img src={star} alt="star" id="star2" />
 <img src={star} alt="star" id="star3" />
+</div>
+<div className="starSet2">
 <img src={star} alt="star" id="star4" />
 <img src={star} alt="star" id="star5" />
+</div>
 <img src={cloud1} alt="cloud" id="darkCloud1" />
 <img src={cloud1} alt="cloud" id="darkCloud2" />
 <img src={cloud1} alt="cloud" id="darkCloud3" />
