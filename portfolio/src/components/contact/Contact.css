@@ -1,10 +1,12 @@
 .contactForm{
     position: absolute;
-    top:150px;
+    top:100px;
     left:12000px;
-    border:1px solid black;
-    padding:40px;
+    padding:20px 50px;
+    background-color: lightsalmon;
+    border:6px solid darkred;
     border-radius: 50px;
+    
 
 }
 
@@ -16,5 +18,5 @@
     
 }
 .send{
-    margin-left:40px;
+    margin-left:150px;
 }
