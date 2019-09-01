@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Form, Button} from "react-bootstrap";
 import "./Contact.css";
-import thankyou from "../../assets/images/thankyou.png";
+import thankyou from "../../assets/images/thankyou.jpg";
 import send from '../../assets/images/send.png';
 class Contact extends Component{
     render(){

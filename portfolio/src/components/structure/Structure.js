@@ -60,7 +60,7 @@ class Structure extends Component {
 // build scene
 new ScrollMagic.Scene({triggerElement: "#moonWrap", offset:3100,duration:500})
                 .setTween(tween) 
-                .addIndicators({name:"moon"}) // add indicators (requires plugin)
+                // .addIndicators({name:"moon"}) // add indicators (requires plugin)
                 .addTo(this.state.controller);
   }
   render() {
