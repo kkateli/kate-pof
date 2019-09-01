@@ -38,6 +38,92 @@
     left:780px;
     
 }
+#bulb1{
+    position: absolute;
+    left:820px;
+    top:200px;
+}
+
+#bulb2{
+    position: absolute;
+    left:970px;
+    top:200px;
+}
+#bulb3{
+    position: absolute;
+    left:1120px;
+    top:200px;
+}
+#bulb4{
+    position: absolute;
+    left:1270px;
+    top:200px;
+}
+#bulb5{
+    position: absolute;
+    left:1420px;
+    top:200px;
+}
+.active{
+    background-color: yellow;
+}
+#light1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left:35px;
+    position: relative;
+    top:100px;
+    border: 1px solid gray;
+}
+#light2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left:35px;
+    position: relative;
+    top:100px;
+    border: 1px solid gray;
+}
+#light3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left:35px;
+    position: relative;
+    top:100px;
+    border: 1px solid gray;
+}
+#light4{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left:35px;
+    position: relative;
+    top:100px;
+    border: 1px solid gray;
+}
+#light5{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left:35px;
+    position: relative;
+    top:100px;
+    border: 1px solid gray;
+}
+
+.bulbBase{
+    border-bottom: 50px solid #493630;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+    width: 120px;  
+    position: relative;
+    top:100px;
+}
+
+
 
 @media only screen and (max-height: 800px) {
     .project1{
