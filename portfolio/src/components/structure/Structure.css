@@ -53,12 +53,7 @@
 	left:11500px;
 }
 
-.moon{
-	position: absolute;
-	top:70px;
-	left:3900px;
-	z-index: 1;
-}
+
 
 .kiwi2{
 	position: absolute;
@@ -73,6 +68,12 @@
 	top:-10px;
 	left:2100px;
 	z-index: 1;
+}
+.moon{
+	position: absolute;
+	top:70px;
+	left:3950px;
+	z-index: 2;
 }
 
 

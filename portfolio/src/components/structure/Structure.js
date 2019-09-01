@@ -18,8 +18,17 @@ import Project3 from "../project3/Project3";
 import contact from "../../assets/images/CONTACT.png";
 import Contact from "../contact/Contact";
 import Card from "../sideDraw1/SideDraw1";
-
+import { TimelineMax } from "gsap/TimelineMax";
+import { TweenMax } from "gsap/TweenMax";
+import ScrollMagic from "ScrollMagic";
+import { Linear } from "gsap/EasePack";
+import "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
+import "scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
 class Structure extends Component {
+  state = {
+    //NOTE
+    controller: new ScrollMagic.Controller({ vertical: false })
+  };
   componentDidMount() {
     var divh = $("#dummy").position().top;
     // calculating positions
@@ -41,6 +50,18 @@ class Structure extends Component {
         });
       }
     });
+//moon move
+    var tween = new TimelineMax ()
+    .add([
+        TweenMax.fromTo("#moonWrap .moon", 1, {left: 3100}, {left: 3950, ease: Linear.easeNone})
+        
+    ]);
+
+// build scene
+new ScrollMagic.Scene({triggerElement: "#moonWrap", offset:3100,duration:500})
+                .setTween(tween) 
+                .addIndicators({name:"moon"}) // add indicators (requires plugin)
+                .addTo(this.state.controller);
   }
   render() {
     return (
@@ -80,7 +101,10 @@ class Structure extends Component {
             <AnimationTable />
             <img src={kiwi2} alt="kiwi2" className="kiwi2" />
             <img src={tree} alt="tree" id="tree2" className="tree" />
-           <img src={moon} alt="moon" className="moon" />
+            <div id="moonWrap">
+            <img src={moon} alt="moon" className="moon" />
+            </div>
+            
             <ToolStack />
             <img className="projects" src={projects} alt="projects" />
             <Project2 />

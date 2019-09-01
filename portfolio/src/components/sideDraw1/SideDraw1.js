@@ -18,14 +18,12 @@ class SideDraw extends Component {
       componentDidMount() {
         var tween = new TimelineMax ()
         .add([
-          
-            TweenMax.fromTo("#sideDraw1 .kiwi", 1, {left: 100}, {left: -450, ease: Linear.easeNone}),
-            TweenMax.fromTo("#sideDraw1 .seagle", 1, {left: 500}, {left: -50, ease: Linear.easeNone}),
-            TweenMax.fromTo("#sideDraw1 .seagle2", 1, {left: 500}, {left: -50, ease: Linear.easeNone})
+            TweenMax.fromTo("#sideDraw1 .seagle", 1, {left: -50}, {left: 200, ease: Linear.easeNone}),
+            TweenMax.fromTo("#sideDraw1 .seagle2", 1, {left: -50}, {left: -200, ease: Linear.easeNone})
         ]);
 
     // build scene
-    new ScrollMagic.Scene({triggerElement: "#sideDraw1", offset:-200})
+    new ScrollMagic.Scene({triggerElement: "#sideDraw1", offset:-200, duration:500})
                     .setTween(tween) 
                     // .addIndicators({name:"sideDraw"}) // add indicators (requires plugin)
                     .addTo(this.state.controller);

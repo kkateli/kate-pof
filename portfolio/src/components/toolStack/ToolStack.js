@@ -103,6 +103,7 @@ class ToolStack extends Component {
   render() {
     return (
       <div className="brickStack">
+         
         <img src={tools} alt="tools" className="tools" />
         <div className="starSet1">
           <img src={star} alt="star" id="star1" />
