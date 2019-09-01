@@ -75,12 +75,12 @@ class ToolStack extends Component {
       )
     ]);
 
-    new ScrollMagic.Scene({ triggerElement: ".starSet1", offset: 1000 })
+    new ScrollMagic.Scene({ triggerElement: ".starSet1", offset: 1000, duration:500 })
       .setTween(tween)
       // .addIndicators({name:"starSet1"}) // add indicators (requires plugin)
       .addTo(this.state.controller);
     //star set2 move
-    var tween = new TimelineMax().add([
+    var tween2 = new TimelineMax().add([
       TweenMax.fromTo(
         ".starSet2 #star4",
         1,
@@ -95,8 +95,8 @@ class ToolStack extends Component {
       )
     ]);
 
-    new ScrollMagic.Scene({ triggerElement: ".starSet2", offset: 1700 })
-      .setTween(tween)
+    new ScrollMagic.Scene({ triggerElement: ".starSet2", offset: 1700,duration:500  })
+      .setTween(tween2)
       // .addIndicators({name:"starSet2"}) // add indicators (requires plugin)
       .addTo(this.state.controller);
   }
