@@ -11,6 +11,10 @@
 
 .languageTable td{
     border-bottom:1px solid #90BC4D;
+   
+}
+.languageTable th{
+    width:100px;
 }
 
 
