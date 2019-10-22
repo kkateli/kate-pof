@@ -57,7 +57,7 @@ class Leaf extends Component{
             new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500, offset: 1700})
 						.setPin("#target")
 						.setTween(tween)
-						.addIndicators() // add indicators (requires plugin)
+						// .addIndicators() // add indicators (requires plugin)
 						.addTo(this.state.controller);
       
 
